@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="25p5Clock.css">
+</head>
+<body>
+    <div class="container">
+        <h1>25 + 5 Clock</h1>
+        <div class="container2">
+            <div class="settings">
+                <div id="break-label">Break Length</div>
+                <button id="break-increment">+</button>
+                <span id="break-length">5</span>
+                <button id="break-decrement">-</button> 
+            </div>
+            <div class="settings">
+                <div id="session-label">Session Length</div>
+                <button id="session-increment">+</button>               
+                <span id="session-length">25</span>
+                <button id="session-decrement">-</button>
+            </div>
+        </div>
+        <div id="timer">
+            <div id="timer-label">Session</div>
+            <div id="time-left">25:00</div>
+        </div>
+        <button id="start-stop">Start</button>
+        <button id="reset">Reset</button>
+    </div>
+    <script src="25p5Clock.js"></script>
+</body>
+</html>
